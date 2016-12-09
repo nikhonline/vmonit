@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/vmonit">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="10" maxIdle="5" maxWait="10" name="jdbc/opsDashboard" password="frontend@123" removeAbandoned="true" type="javax.sql.DataSource" url="jdbc:mysql://cso-opsdashweb-s01.dev.aol.com:3306" username="user_fe_dev" validationQuery="SELECT 1 from dual"/>
+</Context>
